@@ -12,7 +12,7 @@ st.write("""
 
 locations=st.selectbox('**Eneter the location**',location)
 
-sqft=st.slider('**Enter Total Number Of Input**', max_value=30400, min_value=300)
+sqft=st.slider('**Enter Total Number Of Squarefeet**', max_value=30400, min_value=300)
 
 bath = st.slider('**Enter Number of Bathroom**', max_value=16, min_value=1)
 
